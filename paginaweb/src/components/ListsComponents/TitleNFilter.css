@@ -1,0 +1,75 @@
+.asdfContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.zxcvHeader {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.qwerFilters {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+
+}
+
+.mnbvWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100px;
+  height: 45px;
+  background-color: #fafafd;
+  border-radius: 8px;
+}
+
+.uiopIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.lkjhIcon svg {
+  width: 20px;
+  height: 20px;
+  fill: white;
+}
+
+/* Botones verdes personalizados */
+.btn {
+
+  color: #28a745; /* Texto blanco */
+  border: 2px solid #28a745; /* Borde verde */
+  padding: 10px 20px;
+  border-radius: 5px; /* Bordes redondeados */
+  font-size: 16px;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Transición suave */
+}
+
+.btn:hover {
+  background-color: #218838; /* Verde más oscuro en hover */
+  border-color: #1e7e34;
+  transform: translateY(-2px); /* Efecto de "elevación" al pasar el cursor */
+}
+
+.btn:active {
+  background-color: #1e7e34; /* Verde más intenso al hacer clic */
+  transform: translateY(0); /* Resetea la elevación */
+}
+
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 5px 2px rgba(40, 167, 69, 0.5); /* Resplandor verde */
+}

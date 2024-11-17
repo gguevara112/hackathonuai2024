@@ -1,0 +1,167 @@
+.page-layout {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+}
+
+/* Menú lateral */
+.sidebar {
+    width: 25%;
+    background-color: #f4f4f4;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar h3 {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Contenido principal */
+.main-content {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.video-preview img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.tabs {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.lkasi{
+    padding:10px;
+    background-color: white; /* Fondo blanco para el relleno */
+    width: 300px;
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.lkasi img {
+max-width: 100%;
+max-height: 100%;
+object-fit: contain; /* Asegura que la imagen mantenga su proporción */}
+
+.tab-button {
+    flex: 1;
+    padding: 10px;
+    margin: 0 5px;
+    background: #e6e6e6;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.tab-button.active {
+    background: #4caf50;
+    color: white;
+    font-weight: bold;
+}
+
+.tab-content {
+    flex: 1;
+    background: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.lesson-button {
+
+    background-color: white;
+    border:1px solid black;
+
+    padding: 10px 15px;
+    margin-top: 5px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: left;
+    width: 100%;
+}
+
+.lesson-button:hover {
+    background-color: #0057b343;
+}
+
+.page-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.content-container {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+
+    gap: 20px;
+}
+
+.pdf-viewer {
+    flex: 1;
+    border: 1px solid #ddd;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.qa-section {
+    flex: 1;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.question {
+    margin-bottom: 20px;
+}
+
+.input-box {
+
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 10px;
+    resize: none;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.final-score {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.final-score h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: #4caf50;
+}

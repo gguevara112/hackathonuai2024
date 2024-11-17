@@ -1,0 +1,75 @@
+.tygkqwo {
+    background-image: url('2.jpg'); /* Cambia esta ruta por la imagen que prefieras */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 200px;
+    color:#28a745;
+}
+
+.ukskjhd {
+    text-align: left;
+    border:2px solid white;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 1000px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+}
+
+.mbcloen {
+    font-size: 3rem;
+    width:700px;
+    margin-bottom: 20px;
+
+}
+
+.hsdkjfw {
+    margin-bottom: 20px;
+    width: 100%;
+    line-height: 1.5;
+
+    font-size: 20px;
+}
+
+.jdkshuf {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-end;
+    margin-right: 20px;
+}
+
+.wiejsfk {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745; /* Verde base */
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bolder;
+}
+
+
+
+.kwjfhes {
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 1rem;
+    color: white;
+    background-color: #28a745; /* Verde base */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    font-weight: bolder;
+}
+
+
